@@ -1,0 +1,50 @@
+/* DEBUG */
+
+[class="container"] {
+  background-color: rgba(255, 20, 147, 0.5);
+  border: 1px solid black;
+  min-height: 50px;
+  margin-bottom: 10px;
+}
+
+[class^="col"] {
+  background-color: rgba(0, 191, 255, 0.5);
+  height: 100%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+/* HEADER */
+header {
+  height: 90px;
+  background-color: #2C3E50;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+  background-color: #53BD9D;
+  
+  
+}
+
+/* MAIN */
+.about {
+  background-color: #53BD9D;
+}
+
+.container-custom {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer-top {
+  background-color: #3A546D;
+}
+
+.footer-bottom {
+  background-color: #2C3E50;
+}
+
