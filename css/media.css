@@ -3,7 +3,7 @@
 /* LARGE >= 992px */
 
 @media screen and (min-width: 993px) {
-
+  
   .rc-fs-3 {
     font-size: 1.75rem !important;
   }
