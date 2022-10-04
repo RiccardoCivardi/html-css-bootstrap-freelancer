@@ -14,11 +14,25 @@
   margin-bottom: 10px;
 } */
 
+/* UTILITIES */
+
+/* STAR */
+
+.rc-star .rc-line {
+  display: inline-block;
+  width: 20%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+
+
 
 
 /* HEADER */
 header {
-  height: 90px;
+  min-height: 90px;
   background-color: #2C3E50;
 }
 
@@ -30,13 +44,18 @@ header {
   filter: invert(1);
 }
 
+
 /* JUMBOTRON */
 
 .jumbotron {
-  background-color: #53BD9D;
-  
-  
+  background-color: #53BD9D; 
 }
+
+.jumbotron img {
+  width: 225px;
+}
+
+
 
 /* MAIN */
 .about {
