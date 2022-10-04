@@ -1,28 +1,12 @@
-/* DEBUG */
-
-/* [class="container"] {
-  background-color: rgba(255, 20, 147, 0.5);
-  border: 1px solid black;
-  min-height: 50px;
-  margin-bottom: 10px;
-}
-
-[class^="col"] {
-  background-color: rgba(0, 191, 255, 0.5);
-  height: 100%;
-  border: 1px solid black;
-  margin-bottom: 10px;
-} */
-
-/* GENERAL */
-
-h2 {
-  color: #333333;
-}
-
 /* UTILITIES */
 
-/* STAR */
+/* layout */
+
+.rc-container {
+  width: 60%;
+}
+
+/* star */
 
 .rc-star .rc-line {
   display: inline-block;
@@ -31,22 +15,21 @@ h2 {
   border-radius: 5px;
 }
 
-/* COLOR */
+/* color */
+
+.rc-text-lightblack {
+  color: #333333;
+}
 
 .rc-text-darkblue {
   color: #1B2530;
 }
 
-/* BG-COLOR */
+/* bg-color */
 
 .rc-bg-darkblue {
   background-color: #1B2530;
 }
-
-
-
-
-
 
 
 /* HEADER */
@@ -66,14 +49,13 @@ header {
 
 /* JUMBOTRON */
 
-.jumbotron {
+#jumbotron {
   background-color: #53BD9D; 
 }
 
-.jumbotron img {
+#jumbotron img {
   width: 225px;
 }
-
 
 
 /* MAIN */
@@ -82,6 +64,7 @@ header {
 
 #portfolio .container .row:last-child .col:hover img {
   filter: brightness(0.5);
+  cursor: pointer;
 }
 
 #portfolio .container .row:last-child .col::after {
@@ -95,11 +78,15 @@ header {
   display: none;
 }
 
-
 #portfolio .container .row:last-child .col:hover::after {
   display: block;
 }
 
+/* about */
+
+#about {
+  background-color: #53BD9D; 
+}
 
 
 
