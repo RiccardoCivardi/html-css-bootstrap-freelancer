@@ -77,6 +77,33 @@ header {
 
 
 /* MAIN */
+
+/* portfolio */
+
+#portfolio .container .row:last-child .col:hover img {
+  filter: brightness(0.5);
+}
+
+#portfolio .container .row:last-child .col::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: white;
+  display: none;
+}
+
+
+#portfolio .container .row:last-child .col:hover::after {
+  display: block;
+}
+
+
+
+
+
 .about {
   background-color: #53BD9D;
 }
