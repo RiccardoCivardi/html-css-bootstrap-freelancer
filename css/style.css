@@ -14,6 +14,12 @@
   margin-bottom: 10px;
 } */
 
+/* GENERAL */
+
+h2 {
+  color: #333333;
+}
+
 /* UTILITIES */
 
 /* STAR */
@@ -23,8 +29,21 @@
   width: 20%;
   height: 5px;
   border-radius: 5px;
-  background-color: white;
 }
+
+/* COLOR */
+
+.rc-text-darkblue {
+  color: #1B2530;
+}
+
+/* BG-COLOR */
+
+.rc-bg-darkblue {
+  background-color: #1B2530;
+}
+
+
 
 
 
